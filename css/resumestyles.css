@@ -1,0 +1,86 @@
+body {
+    background-color: floralwhite;
+    color: black;
+    /*text color*/
+    font-family: Georgia, 'Times New Roman', Times, serif1;
+ }
+ 
+ 
+ h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+ }
+ 
+ 
+ /*changing the font of the header*/
+ 
+ 
+ h5 {
+    text-align: center;
+    font-style: italic;
+ }
+ 
+ 
+ a {
+    color: chartreuse;
+ }
+ 
+ 
+ /*changing the color of the link*/
+ 
+ 
+ a:visited {
+    color: black
+ }
+ 
+ 
+ /*Changing the color of the link if visited*/
+ 
+ 
+ img {
+    border: 2px solid fuchsia;
+    padding: 3px;
+    /*space between the content and the border*/
+    margin: 5px;
+    /*space between content & padding and the next content*/
+    /*Box Model - content surrounded by padding and margins*/
+ 
+ 
+    /*center stuff*/
+    /* display: block;
+ margin: auto; */
+ }
+ 
+ 
+ .imgcenter {
+    display: block;
+    margin: auto;
+ }
+ 
+ 
+ .rizz{  /*change the attributes of a certain part*/
+    border: 2px solid red;
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    color: snow;
+    font-size: large;
+ }
+ 
+ 
+ .rizz:hover{  /*change stuff when you hover over it*/
+    border: none;
+    background-color: aqua;
+    color: blueviolet;
+    font-size: larger;
+ }
+ 
+ 
+ li{
+    text-decoration: overline;
+ }
+ li:hover{
+    text-decoration:  underline ;
+ }
+ 
